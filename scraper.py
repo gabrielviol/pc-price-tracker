@@ -32,6 +32,7 @@ USER_AGENT = (
 
 # Cada oferta no Hardware Barato tem um link com title assim:
 #   "Ir para oferta na Kabum por R$ 2.399,99"
+#   "Ver cupom e oferta na Shopee por R$ 4.415,08"
 OFFER_RE = re.compile(
     r"(?:Ir para oferta|Ver cupom e oferta) na\s+(?P<store>.+?)\s+por\s+R\$\s*(?P<price>[\d.]+,\d{2})",
     re.IGNORECASE,
