@@ -1,0 +1,35 @@
+name: Monitor de precos
+
+on:
+  schedule:
+    # 11:47 UTC = 08:47 em Brasilia, todo dia
+    - cron: "47 11 * * *" # 08:47
+    - cron: "30 0 * * *"  # 21:30
+  workflow_dispatch: # permite rodar na mao pela aba Actions
+
+permissions:
+  contents: write # para salvar o historico (prices.csv) no repositorio
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Buscar precos e enviar ao Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scraper.py
+
+      - name: Salvar historico
+        if: always()
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add prices.csv || true
+          git diff --cached --quiet || git commit -m "precos $(date -u +%F)"
+          git push

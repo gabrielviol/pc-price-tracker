@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ryzen 7 9800X3D",
+    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-9800x3d",
+    "target": 2300
+  },
+  {
+    "name": "Ryzen 7 7800X3D",
+    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-7800x3d",
+    "target": 1700
+  },
+  {
+    "name": "RAM Corsair Vengeance RGB 2x16GB DDR5 6000 CL30",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-vengeance-rgb-32gb-2x16gb-ddr5-6000-cl30-z30",
+    "target": 3500
+  },
+  {
+    "name": "RAM Corsair Vengeance 2x16GB DDR5 6000 CL30",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-vengeance-32gb-2x16gb-ddr5-6000-cl30-cmk32gx5m2b6000c30",
+    "target": 3500
+  },
+  {
+    "name": "RAM Corsair Dominator Titanium RGB 2x16GB DDR5 6000 CL30",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-dominator-titanium-rgb-32gb-2x16gb-ddr5-6000-cmp32gx5m2b6000c30",
+    "target": 3500
+  },
+  {
+    "name": "RAM G.Skill Ripjaws M5 Neo 2x16GB DDR5 6000 CL36",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/g-skill-ripjaws-m5-neo-rgb-32gb-2x16gb-ddr5-6000-cl36",
+    "target": 3500
+  }
+]
