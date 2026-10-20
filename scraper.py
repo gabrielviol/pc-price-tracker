@@ -137,6 +137,11 @@ def send_discord(webhook: str, lines: list[str], any_hit: bool) -> None:
 
 
 def main() -> int:
+    # Garante UTF-8 na saida (o console/log do Windows usa cp1252 e quebra com emoji)
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
     dry_run = "--dry-run" in sys.argv
     products = json.loads(PRODUCTS_FILE.read_text(encoding="utf-8"))
     history = load_history()
