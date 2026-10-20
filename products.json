@@ -1,32 +1,42 @@
 [
   {
-    "name": "Ryzen 7 9800X3D",
-    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-9800x3d",
-    "target": 2300
+    "name": "Ryzen 7 5800X3D",
+    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-5800x3d",
+    "target": 1600
   },
   {
-    "name": "Ryzen 7 7800X3D",
-    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-7800x3d",
-    "target": 1700
+    "name": "Ryzen 7 5700X3D",
+    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-7-5700x3d",
+    "target": 1500
   },
   {
-    "name": "RAM Corsair Vengeance RGB 2x16GB DDR5 6000 CL30",
-    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-vengeance-rgb-32gb-2x16gb-ddr5-6000-cl30-z30",
-    "target": 3500
+    "name": "Ryzen 5 5500X3D",
+    "url": "https://www.hardwarebarato.com/produtos/processadores/ryzen-5-5500x3d",
+    "target": 1100
   },
   {
-    "name": "RAM Corsair Vengeance 2x16GB DDR5 6000 CL30",
-    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-vengeance-32gb-2x16gb-ddr5-6000-cl30-cmk32gx5m2b6000c30",
-    "target": 3500
+    "name": "RAM G.Skill Trident Z RGB 2x16GB DDR4 3600 CL18",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr4-32gb-3600/g-skill-trident-z-rgb-32gb-2x16gb-ddr4-3600-cl18",
+    "target": 1500
   },
   {
-    "name": "RAM Corsair Dominator Titanium RGB 2x16GB DDR5 6000 CL30",
-    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/corsair-dominator-titanium-rgb-32gb-2x16gb-ddr5-6000-cmp32gx5m2b6000c30",
-    "target": 3500
+    "name": "RAM G.Skill Ripjaws V 2x16GB DDR4 3600 CL16",
+    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr4-32gb-3600/g-skill-ripjaws-v-32gb-2x16gb-ddr4-3600-cl16",
+    "target": 1500
   },
   {
-    "name": "RAM G.Skill Ripjaws M5 Neo 2x16GB DDR5 6000 CL36",
-    "url": "https://www.hardwarebarato.com/produtos/memorias-ram/ddr5-32gb-6000/g-skill-ripjaws-m5-neo-rgb-32gb-2x16gb-ddr5-6000-cl36",
-    "target": 3500
+    "name": "RTX 5060 8GB",
+    "url": "https://www.hardwarebarato.com/produtos/placas-de-video/rtx-5060",
+    "target": 2100
+  },
+  {
+    "name": "RTX 5060 Ti 16GB",
+    "url": "https://www.hardwarebarato.com/produtos/placas-de-video/rtx-5060-ti-16gb",
+    "target": 3000
+  },
+  {
+    "name": "RTX 5070 12GB",
+    "url": "https://www.hardwarebarato.com/produtos/placas-de-video/rtx-5070",
+    "target": 4000
   }
 ]
